@@ -1,0 +1,107 @@
+[
+    {
+        "isoCodeThree": "ASM",
+        "country": "American Samoa",
+        "zipPattern": "^(96799|96799[-][0-9][0-9][0-9][0-9])$"
+    },
+    {
+        "isoCodeThree": "BHS",
+        "country": "marshall",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "BMU",
+        "country": "Bermuda",
+        "zipPattern": "^((BY )[A-Z][A-Z]$|^(BY )[0-9][0-9]|(CR )[A-Z][A-Z]$|^(CR )[0-9][0-9]|(DD )[A-Z][A-Z]$|^(DD )[0-9][0-9]|(DV )[A-Z][A-Z]$|^(DV )[0-9][0-9]|(FL )[A-Z][A-Z]$|^(FL )[0-9][0-9]|(GE )[A-Z][A-Z]$|^(GE )[0-9][0-9]|(HM )[A-Z][A-Z]$|^(HM )[0-9][0-9]|(HS )[A-Z][A-Z]$|^(HS )[0-9][0-9]|(MA )[A-Z][A-Z]$|^(MA )[0-9][0-9]|(PG )[A-Z][A-Z]$|^(PG )[0-9][0-9]|(PT )[A-Z][A-Z]$|^(PT )[0-9][0-9]|(SB )[A-Z][A-Z]$|^(SB )[0-9][0-9]|(SN )[A-Z][A-Z]$|^(SN )[0-9][0-9]|(WK )[A-Z][A-Z]$|^(WK )[0-9][0-9]|)$"
+    },
+    {
+        "isoCodeThree": "VGB",
+        "country": "British Virgin Islands",
+        "zipPattern": "^(VG11[1-6]0)$"
+    },
+    {
+        "isoCodeThree": "CYM",
+        "country": "Cayman Islands",
+        "zipPattern": "^((KY)[0-9](-)\\d{4,4})$"
+    },
+    {
+        "isoCodeThree": "DOM",
+        "country": "Dominican Republic",
+        "zipPattern": "^[1-9]\\d{4,4}$"
+    },
+    {
+        "isoCodeThree": "PYF",
+        "country": "French Polynesia",
+        "zipPattern": "^((987)[0-9][0-9])$"
+    },
+    {
+        "isoCodeThree": "GUM",
+        "country": "Guam",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "HTI",
+        "country": "Haiti",
+        "zipPattern": "^\\d{4,4}$"
+    },
+    {
+        "isoCodeThree": "JAM",
+        "country": "Jamaica",
+        "zipPattern": "^((JM)[A-Z]{3,3}\\d{2,2})$"
+    },
+    {
+        "isoCodeThree": "MHL",
+        "country": "Marshall Islands",
+        "zipPattern": "^((969)[0-9][0-9]|(969)[0-9][0-9](-)[0-9][0-9][0-9][0-9])$"
+    },
+    {
+        "isoCodeThree": "MNP",
+        "country": "Northern Mariana Islands",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "PLW",
+        "country": "Palau",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "WSM",
+        "country": "Samoa",
+        "zipPattern": "^(WS[1-2][0-9][0-9][0-9])$"
+    },
+    {
+        "isoCodeThree": "TTO",
+        "country": "Trinidad and Tobago",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "VIR",
+        "country": "Virgin Islands,  US",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "BWI",
+        "country": "British West Indies",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "GBR",
+        "country": "United Kingdom",
+        "zipPattern": "^(GIR|[a-zA-Z]\\d[a-zA-Z\\d]??|[a-zA-Z]{2}\\d[a-zA-Z\\d]??)[ ]??(\\d[a-zA-Z]{2})$"
+    },
+    {
+        "isoCodeThree": "USA",
+        "country": "United States",
+        "zipPattern": "^[0-9]{5}(-[0-9]{4})?$"
+    },
+    {
+        "isoCodeThree": "CAN",
+        "country": "Canada",
+        "zipPattern": "^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}[0-9]{1}[A-Za-z]{1} *[0-9]{1}[A-Za-z]{1}[0-9]{1}$"
+    },
+    {
+        "isoCodeThree": "ARE",
+        "country": "United Arab Emirates",
+        "zipPattern": "^[0-9]{5}?$"
+    }
+]

@@ -1,0 +1,276 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "notitle": true,
+                "placeholder": "Full Name*",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 70,
+                "fieldHtmlClass": "error-red",
+                "pattern": "^[a-zA-Z0-9 -]+$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid name",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 70 characters."
+                },
+                "customValidationMessage": "",
+                "feedbackOnRender": true
+            },
+            "addressLine1": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Address Line 1*",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 50,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid Address.",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 50 characters."
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "addressLine2": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red not-required",
+                "placeholder": "Address Line 2",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 50,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "validationMessages": {
+                    "pattern": "Please enter a valid Address.",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 50 characters."
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "city": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "City*",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 30,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid City.",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 30 characters."
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "state": {
+                "notitle": true,
+                "type": "string",
+                "fieldHtmlClass": "error-red",
+                "widget": "custom-select-widget",
+                "countryIdRequired": true,
+                "selectText": "State*",
+                "nameField": "stateName",
+                "valueField": "stateCode",
+                "optionGetUrl": "/admin/V1/states?countryID=41",
+                "validationMessages": {
+                    "required": "Required"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "zip": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Zip Code*",
+                "type": "string",
+                "maxLength": 10,
+                "pattern": "^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}[0-9]{1}[A-Za-z]{1} *[0-9]{1}[A-Za-z]{1}[0-9]{1}$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid Zip Code.",
+                    "maxLength": "Maximum length should be 10 characters."
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "country": {
+                "notitle": true,
+                "type": "string",
+                "widget": "custom-select-widget",
+                "selectText": "Country*",
+                "optionGetUrl": "/admin/V1/countries/lookup",
+                "nameField": "name",
+                "valueField": "countryId",
+                "disabled": true,
+                "default": 41,
+                "filterField": "countryId",
+                "customErrorMessage": ""
+            }
+        },
+        "required": [
+            "name",
+            "addressLine1",
+            "city",
+            "zip",
+            "state"
+        ]
+    },
+    "form": [{
+            "type": "section",
+            "htmlClass": "col-12 no-padding address-component",
+            "items": [{
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "name"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine2"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "city"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "state"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "zip"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "0 1 50%",
+                            "items": [{
+                                "key": "country",
+                                "disabled": true
+                            }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "items": [{
+                    "type": "div",
+                    "htmlClass": "col-12 hide",
+                    "items": [{
+                        "type": "help",
+                        "htmlClass": "col-12 note"
+                    }]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "col-12 no-margin",
+                    "items": [{
+                            "type": "button",
+                            "fieldHtmlClass": "hide",
+                            "style": "btn btn-link pull-right",
+                            "title": "Back To Saved Address",
+                            "eventId": "BackToSavedAddress"
+                        },
+                        {
+                            "type": "submit",
+                            "fieldHtmlClass": "show",
+                            "disabled": false,
+                            "style": "btn btn-primary",
+                            "title": "Verify Address",
+                            "eventId": "VerifyAddress"
+                        },
+                        {
+                            "type": "submit",
+                            "fieldHtmlClass": "hide",
+                            "style": "btn btn-primary",
+                            "title": "Re-verify",
+                            "eventId": "Reverify"
+                        },
+                        {
+                            "type": "button",
+                            "fieldHtmlClass": "hide",
+                            "style": "btn btn-primary addrs-button",
+                            "title": "Use Verified Address Above",
+                            "eventId": "UseVerifiedAddressAbove"
+                        },
+                        {
+                            "type": "button",
+                            "fieldHtmlClass": "hide",
+                            "style": "btn btn-primary",
+                            "title": "Use Original Address",
+                            "eventId": "UseOriginalAddress"
+                        },
+                        {
+                            "type": "button",
+                            "fieldHtmlClass": "hide",
+                            "style": "btn btn-primary",
+                            "title": "Re Enter Address",
+                            "eventId": "ReEnterAddress"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "data": {},
+    "model": {}
+}

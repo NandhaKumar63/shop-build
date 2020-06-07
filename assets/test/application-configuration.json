@@ -1,0 +1,456 @@
+[
+    {
+        "countryName": "usa",
+        "siteName":"CorporateSite",
+        "sites": [
+            {
+                "title": "Home",
+                "site":"corporatesite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://corporate-titanstg.nextsphere.com/?countryName=usa"
+            },
+            {
+                "title": "Dashboard",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://account-titanstg.nextsphere.com/usa/account/dashboard/?countryName=usa"
+            },
+            {
+                "title": "Executive",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "http://corporate-titanstg.nextsphere.com"
+            },
+            {
+                "title": "About Us",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Opportunity",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Videos",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com?countryCode=usa"
+            },
+            {
+                "title": "Training",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": true,
+                "routePath": "usa/shop",
+                "titanUrl": "https://shop-titandev.nextsphere.com/?countryName=usa"
+            },
+            {
+                "title": "News",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "https://foreverliving.com/page/incentives/usa/en"
+            },
+            {
+                "title": "Incentives",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Events",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Join",
+                "moduleId": "Join",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "static": false,
+                "enableModule": true,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com/?countryName=usa"
+            },
+            {
+                "title": "Shop",
+                "moduleId": "Shop",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": true,
+                "routePath": "usa/shop",
+                "titanUrl": "https://shop-titandev.nextsphere.com/?countryName=usa"
+            }
+        ]
+    },
+    {
+        "countryName": "gbr",
+        "sites": [
+            {
+                "title": "Home",
+                "site":"corporatesite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://corporate-titanstg.nextsphere.com/?countryName=gbr"
+            },
+            {
+                "title": "Dashboard",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://account-titanstg.nextsphere.com/usa/account/dashboard/?countryName=gbr"
+            },
+            {
+                "title": "Executive",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "http://corporate-titanstg.nextsphere.com"
+            },
+            {
+                "title": "About Us",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Opportunity",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Videos",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com?countryCode=gbr"
+            },
+            {
+                "title": "Training",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": true,
+                "routePath": "usa/shop",
+                "titanUrl": "https://shop-titandev.nextsphere.com/?countryName=gbr"
+            },
+            {
+                "title": "News",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "https://foreverliving.com/page/incentives/gbr/en"
+            },
+            {
+                "title": "Incentives",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Events",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Join",
+                "moduleId": "Join",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "static": false,
+                "enableModule": true,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com/?countryName=gbr"
+            },
+            {
+                "title": "Shop",
+                "moduleId": "Shop",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": true,
+                "routePath": "usa/shop",
+                "titanUrl": "https://shop-titandev.nextsphere.com/?countryName=gbr"
+            }
+        ]
+    },
+    {
+        "countryName": "can",
+        "sites": [
+            {
+                "title": "Home",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://corporate-titanstg.nextsphere.com/?countryName=can"
+            },
+            {
+                "title": "Journey",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "Products",
+                "moduleId": "shop",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "shop",
+                "titanUrl": ""
+            },
+            {
+                "title": "Videos",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "Training",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "News",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "Incentives",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "Events",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": ""
+            },
+            {
+                "title": "Join",
+                "moduleId": "Join",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "static": false,
+                "enableModule": false,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com?countryCode=usa"
+            },
+            {
+                "title": "Shop",
+                "moduleId": "Shop",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": true,
+                "routePath": "usa/shop",
+                "titanUrl": "https://shop-titandev.nextsphere.com/?countryName=can"
+            },
+            {
+                "title": "Home",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://account-titanstg.nextsphere.com/usa/account/dashboard"
+            },
+            {
+                "title": "Reports",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Autoship",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Shop",
+                "site":"accountsite",                
+                "moduleId": "Shop",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": true,
+                "routePath": "shop",
+                "titanUrl": "https://shop-titanstg.nextsphere.com/?countryName=can"
+            }
+        ]
+    },
+    {
+        "countryName": "ita",
+        "sites": [
+            {
+                "title": "Home",
+                "moduleId": "",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": true,
+                "routePath": "/",
+                "titanUrl": "https://corporate-titanstg.nextsphere.com/?countryName=ita"
+            },
+            {
+                "title": "Shop",
+                "moduleId": "Shop",
+                "site":"corporatesite",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": true,
+                "routePath": "/shop"
+            },
+            {
+                "title": "Join",
+                "moduleId": "Join",
+                "site":"corporatesite",
+                "enableTitan": false,
+                "static": false,
+                "enableModule": true,
+                "routePath": "",
+                "titanUrl": "https://join-titanstg.nextsphere.com/?countryName=ita"
+            },
+            {
+                "title": "Home",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": "https://account-titanstg.nextsphere.com/usa/account/dashboard"
+            },
+            {
+                "title": "Reports",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Autoship",
+                "site":"accountsite",
+                "moduleId": "",
+                "enableTitan": false,
+                "enableModule": false,
+                "static": false,
+                "routePath": "/",
+                "titanUrl": ""
+            },
+            {
+                "title": "Shop",
+                "site":"accountsite",                
+                "moduleId": "Shop",
+                "enableTitan": true,
+                "enableModule": false,
+                "static": false,
+                "routePath": "",
+                "titanUrl": "https://shop-titanstg.nextsphere.com/?countryName=ita"
+            }
+        ]
+    }
+]

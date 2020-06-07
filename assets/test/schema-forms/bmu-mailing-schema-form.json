@@ -1,0 +1,202 @@
+{
+  "schema": {
+      "type": "object",
+      "properties": {
+          "addressLine1": {
+              "notitle": true,
+              "fieldHtmlClass": "error-red",
+              "placeholder": "Address Line 1*",
+              "type": "string",
+              "hasFloat": true,
+              "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+              "validationMessages": {
+                  "required": "Required",
+                  "pattern": "Please enter a valid Address"
+              },
+              "feedbackOnRender": true,
+              "customErrorMessage": ""
+          },
+          "addressLine2": {
+              "notitle": true,
+              "fieldHtmlClass": "error-red not-required",
+              "placeholder": "Address Line 2",
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+              "validationMessages": {
+                  "required": "Required",
+                  "pattern": "Please enter a valid Address"
+              },
+              "feedbackOnRender": true,
+              "customErrorMessage": "",
+              "hasFloat": true
+          },
+          "city": {
+              "notitle": true,
+              "fieldHtmlClass": "error-red",
+              "placeholder": "City*",
+              "type": "string",
+              "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+              "validationMessages": {
+                  "required": "Required",
+                  "pattern": "Please enter a valid City"
+              },
+              "feedbackOnRender": true,
+              "customErrorMessage": ""
+          },
+          "state": {
+              "notitle": true,
+              "type": "string",
+              "fieldHtmlClass": "error-red",
+              "widget": "custom-select-widget",
+              "countryIdRequired": true,
+              "selectText": "State*",
+              "nameField": "stateName",
+              "valueField": "stateCode",
+              "optionGetUrl": "/admin/V1/states?countryID=26",
+              "validationMessages": {
+                  "required": "Required"
+              },
+              "feedbackOnRender": true,
+              "customErrorMessage": ""
+          },
+          "zip": {
+              "notitle": true,
+              "fieldHtmlClass": "error-red",
+              "placeholder": "Zip Code*",
+              "type": "string",
+              "pattern":"^((BY )[A-Z][A-Z]$|^(BY )[0-9][0-9]|(CR )[A-Z][A-Z]$|^(CR )[0-9][0-9]|(DD )[A-Z][A-Z]$|^(DD )[0-9][0-9]|(DV )[A-Z][A-Z]$|^(DV )[0-9][0-9]|(FL )[A-Z][A-Z]$|^(FL )[0-9][0-9]|(GE )[A-Z][A-Z]$|^(GE )[0-9][0-9]|(HM )[A-Z][A-Z]$|^(HM )[0-9][0-9]|(HS )[A-Z][A-Z]$|^(HS )[0-9][0-9]|(MA )[A-Z][A-Z]$|^(MA )[0-9][0-9]|(PG )[A-Z][A-Z]$|^(PG )[0-9][0-9]|(PT )[A-Z][A-Z]$|^(PT )[0-9][0-9]|(SB )[A-Z][A-Z]$|^(SB )[0-9][0-9]|(SN )[A-Z][A-Z]$|^(SN )[0-9][0-9]|(WK )[A-Z][A-Z]$|^(WK )[0-9][0-9]|)$",        
+              "validationMessages": {
+                  "required": "Required",
+                  "pattern": "Please enter a valid zip code."
+              },
+              "feedbackOnRender": true,
+              "customErrorMessage": ""
+          },
+          "country": {
+              "notitle": true,
+              "type": "string",
+              "widget": "custom-select-widget",
+              "selectText": "Country",
+              "optionGetUrl": "/admin/V1/countries/lookup",
+              "nameField": "name",
+              "valueField": "countryId",
+              "disabled": true,
+              "default": 26,
+              "filterField": "countryId",
+              "customErrorMessage": ""
+          }
+      },
+      "required": [
+          "addressLine1",
+          "city",
+          "zip",
+          "state"
+      ]
+  },
+  "form": [{
+          "type": "section",
+          "htmlClass": "col-12 no-padding m-0 address-component",
+          "items": [{
+                  "type": "div",
+                  "htmlClass": "no-padding no-margin",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "items": [{
+                          "type": "div",
+                          "htmlClass": "fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [
+                              "addressLine1"
+                          ]
+                      },
+                      {
+                          "type": "div",
+                          "htmlClass": "selector fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [
+                              "addressLine2"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "type": "div",
+                  "htmlClass": "no-padding no-margin",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "items": [{
+                          "type": "div",
+                          "htmlClass": "fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [
+                              "city"
+                          ]
+                      },
+                      {
+                          "type": "div",
+                          "htmlClass": "selector fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [
+                              "state"
+                          ]
+                      }
+                  ]
+              },
+              {
+                  "type": "div",
+                  "htmlClass": "no-padding no-margin",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "items": [{
+                          "type": "div",
+                          "htmlClass": "fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [
+                              "zip"
+                          ]
+                      },
+                      {
+                          "type": "div",
+                          "htmlClass": "selector fields-padding",
+                          "flex": "1 1 100%",
+                          "items": [{
+                              "key": "country",
+                              "disabled": true
+                          }]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "type": "div",
+          "items": [{
+                  "type": "div",
+                  "htmlClass": "col-12 hide",
+                  "items": [{
+                      "type": "help",
+                      "htmlClass": "col-12 note"
+                  }]
+              },
+              {
+                  "type": "div",
+                  "display": "flex",
+                  "flex-direction": "row",
+                  "htmlClass": "btn-section schema-btn-align-center",
+                  "items": [
+                      {
+                          "type": "submit",
+                          "fieldHtmlClass": "hide verify-address",
+                          "disabled": false,
+                          "style": "btn btn-primary mx-auto mt-2",
+                          "title": "Next",
+                          "eventId": "VerifyAddress"
+                      }
+                  ]
+              }
+          ]
+      }
+  ],
+  "data": {},
+  "model": {}
+}

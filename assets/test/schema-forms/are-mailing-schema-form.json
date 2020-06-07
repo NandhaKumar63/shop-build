@@ -1,0 +1,308 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "addressLine1": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Address Line 1*",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "hasFloat": true,
+                "optionsMatchValidation":{
+                    "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                    "exactMatch":false,
+                    "negate":true
+                },
+                "pattern": "^[\\x20-\\x7E]*$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid Address",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 50 characters.",
+                    "optionsMatchValidation":"Please enter valid Address"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "addressLine2": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red not-required",
+                "placeholder": "Address Line 2",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "pattern": "^[\\x20-\\x7E]*$",
+                "optionsMatchValidation":{
+                        "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                        "exactMatch":false,
+                        "negate":true
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid Address",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 50 characters.",
+                    "optionsMatchValidation":"Please enter valid Address"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": "",
+                "hasFloat": true
+            },
+            "addressLine3": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red not-required",
+                "placeholder": "Address Line 3",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "pattern": "^[\\x20-\\x7E]*$",
+                "optionsMatchValidation":{
+                        "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                        "exactMatch":false,
+                        "negate":true
+                },
+                "validationMessages": {
+                    "pattern": "Please enter a valid Address",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 50 characters.",
+                    "optionsMatchValidation":"Please enter valid Address"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": "",
+                "hasFloat": true
+            },
+            "addressLine4": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red not-required",
+                "placeholder": "Address Line 4",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 50,
+                "pattern": "^[\\x20-\\x7E]*$",
+                "optionsMatchValidation":{
+                        "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                        "exactMatch":false,
+                        "negate":true
+                },
+                "validationMessages": {
+                    "pattern": "Please enter a valid Address",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 50 characters.",
+                    "optionsMatchValidation":"Please enter valid Address"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": "",
+                "hasFloat": true
+            },
+            "city": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "City*",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 30,
+                "pattern": "^[\\x20-\\x7E]*$",
+                "optionsMatchValidation":{
+                        "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                        "exactMatch":false,
+                        "negate":true
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid City",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 30 characters.",
+                    "optionsMatchValidation":"Please enter valid City"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "state": {
+                "notitle": true,
+                "type": "string",
+                "fieldHtmlClass": "error-red",
+                "widget": "custom-select-widget",
+                "countryIdRequired": true,
+                "selectText": "State or Province*",
+                "nameField": "stateName",
+                "valueField": "stateCode",
+                "optionGetUrl": "/admin/V1/states?countryID=234",
+                "validationMessages": {
+                    "required": "Required"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "zip": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Zip Code*",
+                "type": "string",
+                "maxLength": 10,
+                "pattern": "^[\\x20-\\x7E]*$",
+                "optionsMatchValidation":{
+                    "options":["Iran","Tehran","Teheran","Iranian","Iranain"],
+                    "exactMatch":false,
+                    "negate":true
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter a valid zip code.",
+                    "maxLength": "Maximum length should be 10 characters.",
+                    "optionsMatchValidation":"Please enter valid City"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "country": {
+                "notitle": true,
+                "type": "string",
+                "widget": "custom-select-widget",
+                "selectText": "Country",
+                "optionGetUrl": "/admin/V1/countries/lookup",
+                "nameField": "name",
+                "valueField": "countryId",
+                "disabled": true,
+                "default": 234,
+                "filterField": "countryId",
+                "customErrorMessage": ""
+            }
+        },
+        "required": [
+            "addressLine1",
+            "city",
+            "state"
+        ]
+    },
+    "form": [{
+            "type": "section",
+            "htmlClass": "col-12 no-padding m-0 address-component",
+            "items": [{
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine1"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine2"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine3"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine4"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "city"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "state"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [{
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "zip"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [{
+                                "key": "country",
+                                "disabled": true
+                            }]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "items": [{
+                    "type": "div",
+                    "htmlClass": "col-12 hide",
+                    "items": [{
+                        "type": "help",
+                        "htmlClass": "col-12 note"
+                    }]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "htmlClass": "btn-section schema-btn-align-center",
+                    "items": [
+                        {
+                            "type": "submit",
+                            "fieldHtmlClass": "hide verify-address",
+                            "disabled": false,
+                            "style": "btn btn-primary mx-auto mt-2",
+                            "title": "Next",
+                            "eventId": "VerifyAddress"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "data": {},
+    "model": {}
+}

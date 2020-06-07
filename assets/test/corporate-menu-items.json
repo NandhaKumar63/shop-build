@@ -1,0 +1,716 @@
+[
+    {
+        "countryName": "usa",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=usa",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=usa",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "usa/shop",
+                "children":[]
+            }             
+        ]
+    },
+    {
+        "countryName": "can",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=can",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=can",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "can/shop",
+                "children":[]
+            }             
+        ]
+    },
+    {
+        "countryName": "gbr",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=gbr",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=gbr",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "gbr/shop",
+                "children":[]
+            }             
+        ]
+    },
+    {
+        "countryName": "bel",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=bel",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=bel",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "bel/shop",
+                "children":[]
+            }             
+        ]
+    },
+    {
+        "countryName": "nld",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=nld",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=nld",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "nld/shop",
+                "children":[]
+            }             
+        ]
+    },
+    {
+        "countryName": "lux",
+        "siteName":"CorporateSite",
+        "sites":[
+            {
+                "title":"Home",
+                "children":[]
+            },
+            {
+                "title":"Our Story",
+                "children":[
+                    {
+                        "title":"Journey",
+                        "children":[]
+                    },
+                    {
+                        "title":"Leadership",
+                        "children":[]
+                    },
+                    {
+                        "title":"Locations",
+                        "children":[]
+                    },
+                    {
+                        "title":"Other Sites",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Opportunity",
+                "children":[
+                    {
+                        "title":"Why Forever",
+                        "children":[]
+                    },
+                    {
+                        "title":"How it works",
+                        "children":[]
+                    },
+                    {
+                        "title":"Incentives",
+                        "children":[]
+                    },
+                    {
+                        "title":"FAQ",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Our Products",
+                "children":[
+                    {
+                        "title":"Drinks And Gels",
+                        "children":[]
+                    },
+                    {
+                        "title":"Bee Products",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Nutritional Supplements",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Weight Management",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Personal Care",
+                        "titanUrl":"",
+                        "children":[]
+                    },
+                    {
+                        "title":"Accessories",
+                        "titanUrl":"",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"News",
+                "children":[]
+            },
+            {
+                "title":"Join Us",
+                "static":false,
+                "titanUrl":"",
+                "enableTitan": false,
+                "children":[
+                    {
+                        "title":"Preferred Customer",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=lux",
+                        "children":[]
+                    },
+                    {
+                        "title":"Forever Business Owner",
+                        "static":false,
+                        "enableTitan": true,
+                        "titanUrl":"https://join-titanstg.nextsphere.com?countryCode=lux",
+                        "children":[]
+                    }
+                ]
+            },
+            {
+                "title":"Shop",
+                "enableTitan": false,
+                "static":true,
+                "titanUrl": "lux/shop",
+                "children":[]
+            }             
+        ]
+    }
+]

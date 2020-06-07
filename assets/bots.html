@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> 
+    <!--Face book meta tags-->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" th:attr="content=${botsValues.title}" />
+    <meta property="og:description" th:attr="content=${botsValues.productDescription}" />
+    <meta property="og:image" th:attr="content=${botsValues.imageUrl}" />
+    <!--End-->
+    <!--Twitter meta tags-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" th:attr="content=${botsValues.title}" />
+    <meta name="twitter:description" th:attr="content=${botsValues.productDescription}" />
+    <meta name="twitter:image" th:attr="content=${botsValues.imageUrl}" />
+    <!--END-->
+    <script th:inline="javascript">
+        /*<![CDATA[*/
+        var data = 0;
+        var apiConfig = 0;
+        data = /*[[${botsValues}]]*/ +'';
+        /*]]>*/
+        window.location.href = window.location.origin + data.url;
+    </script>
+</head>
+<body>
+</body>
+</html>

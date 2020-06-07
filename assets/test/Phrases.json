@@ -1,0 +1,47 @@
+{
+  "megamenu": {
+    "Join":"Join"
+  },
+  "productreviews": {
+    "||currentLength|| of ||max|| characters": "||currentLength|| of ||max|| characters",
+    "Max ||max|| characters": "Max ||max|| characters",
+    "Thank you! Your review has been received.":"Thank you! Your review has been received.",
+    "Thank you! Your review has been received and, if approved, will be posted soon.":"Thank you! Your review has been received and, if approved, will be posted soon."
+  },
+  "common": {       
+    "Welcome!":"Welcome!",
+    "Due to increased demand, pick up orders will be available two days after the order is placed": "Due to increased demand, pick up orders will be available two days after the order is placed",
+    "Phone":"Phone",
+    "Mobile":"Mobile",
+    "Display Price Type Retail 5%": "Display Price Type Retail 5%",
+    "Please enjoy 5% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!": "Please enjoy 5% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!",
+    "Display Price Type Retail 10%": "Display Price Type Retail 10%",
+    "Please enjoy 10% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!": "Please enjoy 10% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!",
+    "Display Price Type Retail 15%": "Display Price Type Retail 15%",
+    "Please enjoy 15% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!": "Please enjoy 15% off of everything you order today while visiting my site. No promo code needed. Prices displayed reflect the discount already. Enjoy!",
+    "It appears you have used this promotional link already. Discounts are limited to one per customer. All pricing now reflects our regular retail pricing. Please consider enrolling as a preferred customer to continue enjoying Forever Living products at a discounted rate.": "It appears you have used this promotional link already. Discounts are limited to one per customer. All pricing now reflects our regular retail pricing. Please consider enrolling as a preferred customer to continue enjoying Forever Living products at a discounted rate.",
+    "Orders should not exceed an aggregate of ||maxValue|| until ||endDate||": "Orders should not exceed an aggregate of ||maxValue|| until ||endDate||",
+    "Order must meet a minimum limit on wholesale price of": "Order must meet a minimum limit on wholesale price of",
+    "Your cart must be a minimum amount of {{min}} and  a maximum amount of {{max}}": "Your cart must be a minimum amount of {{min}} and  a maximum amount of {{max}}",
+    "Your autoship cart must be a minimum amount of {{min}} and  a maximum amount of {{max}}": "Your autoship cart must be a minimum amount of {{min}} and  a maximum amount of {{max}}"
+  },
+  "ordersummary": {
+    "Upgrade to FBO": "Upgrade to FBO",
+    "I am not Interested": "I am not Interested",
+    "Become An FBO": "Become An FBO",
+    "Due to increased demand, pick up orders will be available two days after the order is placed": "Due to increased demand, pick up orders will be available two days after the order is placed",
+    "It appears you have used this promotional link already. Discounts are limited to one per customer. All pricing now reflects our regular retail pricing. Please consider enrolling as a preferred customer to continue enjoying Forever Living products at a discounted rate.": "It appears you have used this promotional link already. Discounts are limited to one per customer. All pricing now reflects our regular retail pricing. Please consider enrolling as a preferred customer to continue enjoying Forever Living products at a discounted rate."
+  },
+  "schemaform": {
+    "City should be any of the these three APO, FPO, DPO": "City should be any of the these three APO, FPO, DPO",
+    "Post Code and Country Combination as mismatch": "Post Code and Country Combination as mismatch"
+  },
+  "checkout":{
+    "Order will be processed once bank transfer received":"Order will be processed once bank transfer received",
+    "Bank Transfer":"Bank Transfer",
+    "WebOrderID":"WebOrderID",
+    "Cash On Delivery":"Cash On Delivery",
+    "I dont have a sponsor please assign for me":"I dont have a sponsor please assign for me"
+  }
+  
+}

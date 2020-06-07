@@ -1,0 +1,395 @@
+{
+    "schema": {
+        "type": "object",
+        "properties": {
+            "firstName": {
+                "notitle": true,
+                "placeholder": "First Name*",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 20,
+                "fieldHtmlClass": "error-red",
+                "pattern": "^[a-zA-Z0-9 -]+$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid name",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 20 characters."
+                },
+                "customValidationMessage": "",
+                "feedbackOnRender": true
+            },
+            "middleName": {
+                "notitle": true,
+                "placeholder": "Middle Name",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 5,
+                "fieldHtmlClass": "error-red",
+                "pattern": "^[a-zA-Z0-9 -]+$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid name",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 5 characters."
+                },
+                "customValidationMessage": "",
+                "feedbackOnRender": true
+            },
+            "lastName": {
+                "notitle": true,
+                "placeholder": "Last Name*",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 25,
+                "fieldHtmlClass": "error-red",
+                "pattern": "^[a-zA-Z0-9 -]+$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid name",
+                    "minLength": "Minimum length should be 1 characters.",
+                    "maxLength": "Maximum length should be 25 characters."
+                },
+                "customValidationMessage": "",
+                "feedbackOnRender": true
+            },
+            "addressLine1": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Address Line 1*",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 50,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "poBoxValidation":{
+                    "allowedStates":["AK","PR","HI","GU","VI","MH","MP","PW"],
+                    "allowedText":["PO BOX","P O BOX","P.O. BOX","P. O. BOX","P. O BOX","P.O.BOX","POBOX","PO. BOX","POST OFFICE BOX"],
+                    "controlToCheck":"state"
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid address",
+                    "poBoxValidation": "Post office boxes are not valid for shipping destinations.",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 50 characters."
+                },
+                "feedbackOnRender": true,
+                "postRenderValidation": true,
+                "customErrorMessage": "",
+                "hasFloat": true
+            },
+            "addressLine2": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red not-required",
+                "placeholder": "Address Line 2",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 50,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "poBoxValidation":{
+                    "allowedStates":["AK","PR","HI","GU","VI","MH","MP","PW"],
+                    "allowedText":["PO BOX","P O BOX","P.O. BOX","P. O. BOX","P. O BOX","P.O.BOX","POBOX","PO. BOX","POST OFFICE BOX"],
+                    "controlToCheck":"state"
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid address",
+                    "poBoxValidation": "Post office boxes are not valid for shipping destinations.",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 50 characters."
+                },
+                "feedbackOnRender": true,
+                "postRenderValidation": true,
+                "customErrorMessage": "",
+                "hasFloat": true
+            },
+            "city": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "City*",
+                "type": "string",
+                "minLength": 3,
+                "maxLength": 30,
+                "pattern": "^[a-zA-Z0-9~`\\!@#\\$%\\^&*\\(\\)_\\+\\-\\=\\{\\}\\|\"\\:<>\\?,/\\\\.\\[\\];'\\s]*$",
+                "poBoxValidation":{
+                    "allowedStates":["AA","AE","AP"],
+                    "allowedText":["APO","FPO","DPO"],
+                    "controlToCheck":"state",
+                    "exactMatch":true
+                },
+                "validationMessages": {
+                    "required": "Required",
+                    "poBoxValidation": "City should be any of the these three APO, FPO, DPO",
+                    "pattern": "Please enter valid city",
+                    "minLength": "Minimum length should be 3 characters.",
+                    "maxLength": "Maximum length should be 30 characters."
+                },
+                "feedbackOnRender": true,
+                "postRenderValidation": true,
+                "customErrorMessage": ""
+            },
+            "state": {
+                "notitle": true,
+                "type": "string",
+                "fieldHtmlClass": "error-red",
+                "widget": "custom-select-widget",
+                "countryIdRequired": true,
+                "selectText": "State or Province*",
+                "nameField": "stateName",
+                "valueField": "stateCode",
+                "optionGetUrl": "/admin/V1/states?countryID=1",
+                "validationMessages": {
+                    "required": "Required"
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "zip": {
+                "notitle": true,
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Zip Code*",
+                "type": "string",
+                "maxLength": 10,
+                "pattern": "^[0-9]{5}(-[0-9]{4})?$",
+                "validationMessages": {
+                    "required": "Required",
+                    "pattern": "Please enter valid zip code.",
+                    "maxLength": "Maximum length should be 10 characters."
+                },
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            },
+            "country": {
+                "notitle": true,
+                "type": "string",
+                "widget": "custom-select-widget",
+                "selectText": "Country",
+                "optionGetUrl": "/admin/V1/countries/lookup",
+                "nameField": "name",
+                "valueField": "countryId",
+                "disabled": true,
+                "default": 1,
+                "filterField": "countryId",
+                "customErrorMessage": ""
+            },
+            "phone": {
+                "notitle": true,
+                "widget": "custom-mask-widget",
+                "maskFormat": "(000) 000-0000",
+                "fieldHtmlClass": "error-red",
+                "placeholder": "Phone Number",
+                "type": "string",
+                "widgetType":"tel",
+                "pattern": "^[0-9(\\)\\+\\-\\s]*$",
+                "minLength": 10,
+                "maxLength": 15,
+                "validationMessages": {
+                    "pattern": "Please enter valid phone number",
+                    "minLength": "Minimum length should be 10 characters.",
+                    "maxLength": "Maximum length should be 15 characters."
+                },
+                "feedbackOnRender": true
+            },
+            "phoneType": {
+                "notitle": true,
+                "type": "number",
+                "fieldHtmlClass": "error-red",
+                "widget": "custom-select-widget",
+                "selectText": "Type",
+                "feedbackOnRender": true,
+                "customErrorMessage": ""
+            }
+        },
+        "required": [
+            "firstName",
+            "lastName",
+            "addressLine1",
+            "city",
+            "zip",
+            "state"
+        ]
+    },
+    "form": [
+        {
+            "type": "section",
+            "htmlClass": "address-component",
+            "items": [
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "firstName"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "middleName"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "lastName"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine1"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "htmlClass": "no-padding no-margin",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "addressLine2"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "city"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "state"
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                "zip"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "items": [
+                        {
+                            "type": "div",
+                            "htmlClass": "selector fields-padding",
+                            "flex": "1 1 100%",
+                            "items": [
+                                {
+                                    "key": "country",
+                                    "disabled": true
+                                }
+                            ]
+                        },
+                        {
+                            "type": "div",
+                            "htmlClass": "fields-padding contact-type-padding",
+                            "flex": "1 1 100%", 
+                            "display": "flex",
+                            "flex-direction": "row",
+                            "items": [
+                                {
+                                    "type": "div",
+                                    "htmlClass": "pr-0",
+                                    "flex": "1 1 30%",
+                                    "items": [
+                                        {
+                                            "key": "phoneType"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "div",
+                                    "htmlClass": "",
+                                    "flex": "1 1 70%",
+                                    "items": [
+                                        {
+                                            "key": "phone"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "div",
+            "items": [
+                {
+                    "type": "div",
+                    "htmlClass": "col-12 hide",
+                    "items": [
+                        {
+                            "type": "help",
+                            "htmlClass": "col-12 note"
+                        }
+                    ]
+                },
+                {
+                    "type": "div",
+                    "display": "flex",
+                    "flex-direction": "row",
+                    "htmlClass": "btn-section schema-btn-align-center",
+                    "items": [
+                        {
+                            "type": "submit",
+                            "fieldHtmlClass": "hide verify-address",
+                            "disabled": false,
+                            "style": "btn btn-primary mx-auto mt-2",
+                            "title": "Next",
+                            "eventId": "VerifyAddress"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "data": {},
+    "model": {}
+}
